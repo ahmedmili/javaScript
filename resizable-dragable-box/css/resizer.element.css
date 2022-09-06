@@ -1,0 +1,52 @@
+.item
+{
+    height: 50px;
+    width: 50px;
+    background: orange;
+    position: absolute;
+}
+
+.slt
+{
+    height: 50px;
+    width: 50px;
+    background: green;
+    position: absolute;
+}
+
+.resizer
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.resizer.nw
+{
+    top: -4px;
+    left: -4px;
+    cursor: nw-resize;
+}
+
+.resizer.ne
+{
+    top: -4px;
+    right: -4px;
+    cursor: ne-resize;
+}
+
+.resizer.se
+{
+    bottom: -4px;
+    right: -4px;
+    cursor: se-resize;
+}
+
+.resizer.sw
+{
+    bottom: -4px;
+    left: -4px;
+    cursor: sw-resize;
+}

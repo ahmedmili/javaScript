@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/resizer.element.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.perso.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <!-- <?php include 'upload.php';?> -->
+    <div class="admin_panel">
+        <div class="menu-perso">
+            <div class="image">
+                <img src="img/barre_recherche.png" class="img img1" id="img1">
+                <div class="text-center text-center1 img1" id="div img1">
+                    <span class="txt1" id="txt1">image</span>
+                </div>
+            </div>
+            <div class="save">
+                <img src="img/barre_recherche.png" class="img img2" id="img2">
+                <div class="text-center text-center2" id="div2 img2">
+                    <span class="txt2" id="txt2">Sauvegarder</span>
+                </div>
+            </div>
+        </div>
+        <div class="item move-element" id="div1">
+            <div class="resizer ne"></div>
+            <div class="resizer nw"></div>
+            <div class="resizer sw"></div>
+            <div class="resizer se"></div>
+        </div>
+        <div class="item slt move-element" id="div2">
+            <div class="resizer ne"></div>
+            <div class="resizer nw"></div>
+            <div class="resizer sw"></div>
+            <div class="resizer se"></div>
+        </div>
+    </div>
+    <div class="user">
+    </div>
+    
+    <script src="app/event/element/move.element.js"></script>
+    <script src="app/event/element/resize.element.js"></script>
+    <script src="app/event/menu/menu.perso.js"></script>
+    <script src="app/image/image.insert.js"></script>
+</body>
+</html>
